@@ -11,13 +11,13 @@
     <header>
         <ul>
             <li><button id="sidebarButton" onclick="Sidebar()">Imák</button></li>
-            <li><a href="index.html"><img src="assets/img/RC_Color_Horizontal_White.png" href alt="RC logo" id="logo"></a></li>
+            <li><a href="index.html"><img src="assets/img/RC_Color_Horizontal_White.png" alt="RC logo" id="logo"></a></li>
             <li id="jto"><a href="https://regnumchristi.hu/" target="_blank">JTO!</a></li>
         </ul>
     </header>
     <div id="sidebar">
         <ul>
-            <li><button class="sideButtons" onclick="SubSidebar('subMindennapiImak')">Mindennapi imák</button></li>
+            <li><button class="sideButtons" onclick="SubSidebar('subMindennapiImak')">Mindennapi imák</button>
                 <ul id="subMindennapiImak" class="subSideButtons">
                     <li><button onclick="Ima('reggeli_ima')" id="reggeli_ima">Reggeli ima</button></li>
                     <li><button onclick="Ima('ima_atyahoz')" id="ima_atyahoz">Ima az Atyához</button></li>
@@ -27,18 +27,20 @@
                     <li><button onclick="Ima('az_Ur_angyala')" id="az_Ur_angyala">Az Úr angyala</button></li>
                     <li><button onclick="Ima('regina_coeli')" id="regina_coeli">Regina coeli – Mennyek Királynője</button></li>
                 </ul>
+            </li>
 
-            <li><button class="sideButtons" onclick="SubSidebar('subEstiImak')">Esti imák</button></li>
+            <li><button class="sideButtons" onclick="SubSidebar('subEstiImak')">Esti imák</button>
                 <ul id="subEstiImak" class="subSideButtons">
                     <li><button onclick="Ima('examen')" id="examen">Examen (Lelkiismeret vizsgálat)</button></li>
                     <li><button onclick="Ima('elalvas_elotti_ima')" id="elalvas_elotti_ima">Elalvás előtti ima</button></li>
                     <li><button onclick="Ima('rc_ifi_ima')" id="rc_ifi_ima">RC ifi ima</button></li>
                     <li><button onclick="Ima('szentlelek_segitsegul_hivasa')" id="szentlelek_segitsegul_hivasa">A szentlélek segítségül hívása</button></li>
                 </ul>
-                
+            </li>
+
             <li><button onclick="Ima('rozsafuzer')" id="rozsafuzer">Rózsafüzér</button></li>
 
-            <li><button class="sideButtons" onclick="SubSidebar('subImakKulonbozoAlkalmakra')">Imák különböző alkalmakra</button></li>
+            <li><button class="sideButtons" onclick="SubSidebar('subImakKulonbozoAlkalmakra')">Imák különböző alkalmakra</button>
                 <ul id="subImakKulonbozoAlkalmakra" class="subSideButtons">
                     <li><button onclick="Ima('hiszekegy')" id="hiszekegy">Az Apostoli Hitvallás (Hiszekegy)</button></li>
                     <li><button onclick="Ima('Szent_Mihaly_arkangyal')" id="Szent_Mihaly_arkangyal">Szent Mihály arkangyal ima</button></li>
@@ -54,19 +56,22 @@
                     <li><button onclick="Ima('apostolok_imaja')" id="apostolok_imaja">Apostolok imája</button></li>
                     <li><button onclick="Ima('ima_a_vilagi_krisztushivokert')" id="ima_a_vilagi_krisztushivokert">Ima a világi Krisztushívőkért</button></li>
                 </ul>
+            </li>
 
-            <li><button class="sideButtons" id="aldozasUtaniImak" onclick="SubSidebar('subAldozasUtaniImak')">Áldozas utáni imák</button></li>
+            <li><button class="sideButtons" id="aldozasUtaniImak" onclick="SubSidebar('subAldozasUtaniImak')">Áldozas utáni imák</button>
                 <ul id="subAldozasUtaniImak" class="subSideButtons">
                     <li><button onclick="Ima('ima_a_megfeszitett_Krisztushoz')" id="ima_a_megfeszitett_Krisztushoz">Ima a Megfeszített Krisztushoz</button></li>
                     <li><button onclick="Ima('Loyolai_Szent_Ignac_imaja')" id="Loyolai_Szent_Ignac_imaja">Loyolai Szent Ignác imája (Krisztus lelke)</button></li>
-                    <li><button onclick="Ima('Loyolai_Szent_Ignac_felajanlo_imaja')" id="">Loyolai Szent Ignác felajánló imája</button></li>
+                    <li><button onclick="Ima('Loyolai_Szent_Ignac_felajanlo_imaja')" id="Loyolai_Szent_Ignac_felajanlo_imaja">Loyolai Szent Ignác felajánló imája</button></li>
                 </ul>
+            </li>
 
-            <li><button class="sideButtons" id="szentirasOlvasashoz" onclick="SubSidebar('subSzentirasOlvasashoz')">Szentírás olvasáshoz</button></li>
+            <li><button class="sideButtons" id="szentirasOlvasashoz" onclick="SubSidebar('subSzentirasOlvasashoz')">Szentírás olvasáshoz</button>
                 <ul id="subSzentirasOlvasashoz" class="subSideButtons">
                     <li><button onclick="Ima('bibliaolvasas_ellott')" id="bibliaolvasas_ellott">Bibliaolvasás előtt</button></li>
                     <li><button onclick="Ima('lectio_divina')" id="lectio_divina">Lectio Divina</button></li>
                 </ul>
+            </li>
         </ul>
     </div>
     <main>
@@ -94,7 +99,7 @@
             <p>
                 E-mail: <br>
                 <a href="mailto:info@missiochristi.hu">info@missiochristi.hu</a> <br>
-                Telefon: <a href="tel:+36 1 877 4801">+36 1 877 4801</a> <br>
+                Telefon: <a href="tel:+3618774801">+36 1 877 4801</a> <br>
                 Címünk: <br>
                 1116 Budapest, Fehérvári u. <br>
                 168-178. C épület fsz. 35. <br>
@@ -106,7 +111,7 @@
                 <i></i>
             </h3>
             <p>
-                <iframe name="f351d3bb81c203824" width="250px" height="1000px" data-testid="fb:page Facebook Social Plugin" title="fb:page Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v2.5/plugins/page.php?adapt_container_width=false&amp;app_id=326060968052779&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Dff794088233031d23%26domain%3Dregnumchristi.hu%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fregnumchristi.hu%252Ffdc08a0b22e02e227%26relation%3Dparent.parent&amp;container_width=203&amp;hide_cover=false&amp;hide_cta=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fregnumchristimagyarorszag%2F&amp;locale=hu_HU&amp;sdk=joey&amp;show_facepile=true&amp;show_posts=false&amp;small_header=true&amp;tabs=&amp;width=250" style="border: none; visibility: visible; width: 250px; height: 70px;" class=""></iframe>
+                <iframe name="f351d3bb81c203824" width="250" height="1000" data-testid="fb:page Facebook Social Plugin" title="fb:page Facebook Social Plugin" allow="encrypted-media fullscreen" src="https://www.facebook.com/v2.5/plugins/page.php?adapt_container_width=false&amp;app_id=326060968052779&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Dff794088233031d23%26domain%3Dregnumchristi.hu%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fregnumchristi.hu%252Ffdc08a0b22e02e227%26relation%3Dparent.parent&amp;container_width=203&amp;hide_cover=false&amp;hide_cta=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fregnumchristimagyarorszag%2F&amp;locale=hu_HU&amp;sdk=joey&amp;show_facepile=true&amp;show_posts=false&amp;small_header=true&amp;tabs=&amp;width=250" style="border: none; visibility: visible; width: 250px; height: 70px;"></iframe>
             </p>    
         </div>
         <div>
