@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RC-ifi imafüzet</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="icon" type="image/x-icon" href="assets/img/RC_Color_Vertical2Lines.png">
+</head>
+<body>
+    <header>
+        <ul>
+            <li><button id="sidebarButton" onclick="Sidebar()">Imák</button></li>
+            <li><a href="index.html"><img src="assets/img/RC_Color_Horizontal_White.png" href alt="RC logo" id="logo"></a></li>
+            <li id="jto"><a href="https://regnumchristi.hu/" target="_blank">JTO!</a></li>
+        </ul>
+    </header>
+    <div id="sidebar">
+        <ul>
+            <li><button class="sideButtons" id="mindennapiImak" onclick="MindennapiImak()">Mindennapi imák</button></li>
+                <ul id="subMindennapiImak">
+                    <li><button onclick="Ima('reggeli_ima')" id="reggeli_ima">Reggeli ima</button></li>
+                    <li><button id="ima_atyahoz">Ima az Atyához</button></li>
+                    <li><button id="ima_Krisztushoz">Ima Krisztushoz / RC ifi ima</button></li>
+                    <li><button id="ima_a_szentlelekhez">Ima a Szentlélekhez</button></li>
+                    <li><button id="ima_a_szent_szuzhoz">Ima a Szent Szűzhöz</button></li>
+                    <li><button id="az_Ur_angyala">Az Úr angyala</button></li>
+                    <li><button id="regina_coeli">Regina coeli – Mennyek Királynője</button></li>
+                </ul>
+
+            <li><button class="sideButtons" id="estiImak" onclick="EstiImak()">Esti imák</button></li>
+                <ul id="subEstiImak">
+                    <li><button id="examen">Examen (Lelkiismeret vizsgálat)</button></li>
+                    <li><button id="elalvas_elotti_ima">Elalvás előtti ima</button></li>
+                    <li><button id="rc_ifi_ima">RC ifi ima</button></li>
+                    <li><button id="szentlelek_segitsegul_hivasa">A szentlélek segítségül hívása</button></li>
+                </ul>
+                
+            <li><button id="rozsafuzer">Rózsafüzér</button></li>
+
+            <li><button class="sideButtons" id="imakKulonbozoAlkalmakra" onclick="ImakKulonbozoAlkalmakra()">Imák különböző alkalmakra</button></li>
+                <ul id="subImakKulonbozoAlkalmakra">
+                    <li><button id="hiszekegy">Az Apostoli Hitvallás (Hiszekegy)</button></li>
+                    <li><button id="Szent_Mihaly_arkangyal">Szent Mihály arkangyal ima</button></li>
+                    <li><button id="engesztelo_imadsag">Engesztelő imádság</button></li>
+                    <li><button id="imadsag_a_munka_megszentelesere">Imádság a munka megszentelésére</button></li>
+                    <li><button id="imadsag_tanulas_elott">Imádság tanulás előtt</button></li>
+                    <li><button id="Aquinoi_Szent_Tamas_imaja">Aquinói Szent Tamás imája tanulás és vizsga előtt</button></li>
+                    <li><button id="ima_vizsga_vagy_zh_utan">Ima vizsga vagy ZH után</button></li>
+                    <li><button id="utazas_ellotti_ima">Utazás előtti ima</button></li>
+                    <li><button id="Maria_imak">Mária imák</button></li>
+                    <li><button id="lelki_aldozas">Lelki áldozás</button></li>
+                    <li><button id="Neri_Szent_Fulop_imaja">Néri Szent Fülöp imája</button></li>
+                    <li><button id="apostolok_imaja">Apostolok imája</button></li>
+                    <li><button id="ima_a_vilagi_krisztushivokert">Ima a világi Krisztushívőkért</button></li>
+                </ul>
+
+            <li><button class="sideButtons" id="aldozasUtaniImak" onclick="AldozasUtaniImak()">Áldozas utáni imák</button></li>
+                <ul id="subAldozasUtaniImak">
+                    <li><button id="">Ima a Megfeszített Krisztushoz</button></li>
+                    <li><button id="">Loyolai Szent Ignác imája (Krisztus lelke)</button></li>
+                    <li><button id="">Loyolai Szent Ignác felajánló imája</button></li>
+                </ul>
+
+            <li><button class="sideButtons" id="szentirasOlvasashoz" onclick="SzentirasOlvasashoz()">Szentírás olvasáshoz</button></li>
+                <ul id="subSzentirasOlvasashoz">
+                    <li><button id="">Bibliaolvasás előtt</button></li>
+                    <li><button id="">Lectio Divina</button></li>
+                </ul>
+        </ul>
+    </div>
+    <main>
+        <h1>Ima a Szentlélekhez</h1>
+        <p>
+            <i>
+                XVI. Benedek Pápa, Verbum Domini, 87.
+                A lectio divina valóban képes feltárni a hívő előtt Isten Szavának kincstárát, de a találkozást is létre tudja hozni Krisztussal, az élő isteni Szóval.
+            </i><br><br>
+            
+            A szöveg olvasásával, a <strong>lectióval</strong> kezdődik, mely fölveti a szöveg hiteles megismerésének a kérdését: mit mond a bibliai szöveg önmagában? Enélkül az a veszély fenyeget, hogy a szöveg mentségül szolgál arra, hogy soha ne lépjünk ki a saját gondolatainkból.<br><br>
+            
+            Az olvasást követi a <strong>meditáció</strong> erről a kérdésről: mit mond a bibliai szöveg nekünk? Ezen a ponton mindenkinek személy szerint, de úgy is, mint egy közösség tagja, engednie kell, hogy a szöveg megérintse őt, és kérdéseket vessen föl, hiszen nem a múltban elhangzott, hanem a jelenben hangzó szavak szólnak hozzánk.<br><br>
+            
+            Ezután érkezünk el az <strong>oratióhoz</strong>, az imádsághoz, mely erre a kérdésre felel: mit mondunk mi az Úrnak válaszul az Ő Szavára? Az imádság, mint kérés, közbenjárás, hálaadás és dicséret, az első mód, amellyel a Szó megváltoztat minket.<br><br>
+            
+            Végül a lectio divina a <strong>kontemplációval</strong> zárul, melyben Isten ajándékaként az Ő szemével nézzük és ítéljük meg a dolgokat, s feltesszük magunknak a kérdést: a gondolkodás, a szív és az értelem milyen megtérését várja tőlünk az Úr?<br><br>
+            
+            És tudni kell, hogy a lectio divina csak akkor fejeződik be, amikor elérkezik az <strong>akcióhoz</strong> (cselekvéshez), mely a hívő lelket arra indítja, hogy a szeretetben ajándékozza oda magát másoknak.<br><br>
+        </p>
+    </main>
+    <footer>
+        <div>
+            <h3>
+                Elérhetőségeink
+            </h3>
+            <p>
+                E-mail: <br>
+                <a href="mailto:info@missiochristi.hu">info@missiochristi.hu</a> <br>
+                Telefon: <a href="tel:+36 1 877 4801">+36 1 877 4801</a> <br>
+                Címünk: <br>
+                1116 Budapest, Fehérvári u. <br>
+                168-178. C épület fsz. 35. <br>
+            </p>    
+        </div>
+        <div>
+            <h3>
+                Kövessen minket a Facebook oldalunkon is
+                <i></i>
+            </h3>
+            <p>
+                <iframe name="f351d3bb81c203824" width="250px" height="1000px" data-testid="fb:page Facebook Social Plugin" title="fb:page Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v2.5/plugins/page.php?adapt_container_width=false&amp;app_id=326060968052779&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Dff794088233031d23%26domain%3Dregnumchristi.hu%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fregnumchristi.hu%252Ffdc08a0b22e02e227%26relation%3Dparent.parent&amp;container_width=203&amp;hide_cover=false&amp;hide_cta=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fregnumchristimagyarorszag%2F&amp;locale=hu_HU&amp;sdk=joey&amp;show_facepile=true&amp;show_posts=false&amp;small_header=true&amp;tabs=&amp;width=250" style="border: none; visibility: visible; width: 250px; height: 70px;" class=""></iframe>
+            </p>    
+        </div>
+        <div>
+            <h3>
+                Videóink
+            </h3>
+            <p>
+                <a href="https://www.youtube.com/channel/UCpQdX1Mn3ZjbF8dol6I6N_Q">Tekintse meg Youtube csatornánkat</a>
+            </p>    
+        </div>
+    </footer>
+    <script src="assets/main.js"></script>
+</body>
+</html>

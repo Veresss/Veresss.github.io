@@ -1,0 +1,171 @@
+body {
+    font-size: 200%;
+    color: white;
+    background-color: rgb(122, 122, 122);
+    margin: 0;
+    font-family: Helvetica;
+    height: 100vh;
+    text-align: justify;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(51, 51, 51);
+}
+
+header li {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+li {
+    text-align: center;
+}
+
+#logo {
+    width: 30vw;
+}
+
+#sidebarButton {
+    border: 0;
+    font-size: 100%;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    padding: 0.5em;
+    margin-left: 2.5em;
+    border-radius: 0.2em;
+}
+
+#sidebarButton:hover {
+    background-color: rgb(39, 39, 39);
+}
+
+.sideButtons, button {
+    border: 0;
+    font-size: 100%;
+    background-color: rgb(145, 8, 53);
+    color: white;
+    border-radius: 0.2em;
+}
+
+.subSideButtons {
+    display: none;
+    padding-left: 2em;
+}
+
+.sideButtons:hover, #jto:hover, button:hover{
+    background-color: rgb(121, 7, 45);
+}
+
+#jto {
+    margin-right: 3em;
+    border-radius: 0.2em;
+    padding: 0.5em;
+}
+
+main {
+    display: flex;
+    margin: 4rem;
+    margin-top: 2em;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #262626;
+    text-align: center;
+    font-size: 40%;
+    bottom: 0;
+}
+
+#sidebar {
+    display: none;
+    position: absolute;
+    background-color: rgb(145, 8, 53);
+    height: fit-content;
+}
+
+#sidebar ul {
+    list-style: none;
+}
+
+#sidebar li {
+    text-align: left;
+    padding: 0.5em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    border-radius: 0.2em;
+    padding: 0.1em;
+}
+
+#sidebar a:hover {
+    background-color: rgb(121, 7, 45);
+}
+
+footer p, footer h3 {
+    text-align: left;
+    line-height: 2em;
+    font-weight: bold;
+}
+
+footer h3 {
+    margin-left: 2.5em;
+}
+
+main p {
+    margin-bottom: 4em;
+    line-height: 1.3em;
+}
+
+ol li {
+    text-align: left;
+    margin-bottom: 0.4em;
+    line-height: 120%;
+}
+
+.img-center {
+    display: block;
+    margin: auto;
+}
+
+@media only screen and (max-width: 60em) {
+    body {
+        font-size: 75%;
+    }
+
+    main {
+        margin: 0;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    #sidebar {
+        width: 100vw;
+    }
+}
