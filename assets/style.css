@@ -81,7 +81,16 @@ main {
 }
 
 h1 {
+    font-size: 160%;
     text-align: center;
+}
+
+h2 {
+    font-size: 140%;
+}
+
+h3 {
+    font-size: 120%;
 }
 
 p {
