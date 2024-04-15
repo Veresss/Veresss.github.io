@@ -1,10 +1,17 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 body {
+    position: relative;
     font-size: 200%;
     color: white;
     background-color: rgb(122, 122, 122);
     margin: 0;
     font-family: Helvetica;
-    height: 100vh;
     text-align: justify;
 }
 
@@ -105,7 +112,10 @@ footer {
     background-color: #262626;
     text-align: center;
     font-size: 40%;
+    position: relative;
     bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 #sidebar {
@@ -172,9 +182,13 @@ ol li {
 
     footer {
         flex-direction: column;
+        font-size: 100%;
     }
 
     #sidebar {
         width: 100vw;
+    }
+    .img-center {
+        width: 50vw;
     }
 }
