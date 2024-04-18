@@ -52,6 +52,11 @@ li {
     border-radius: 0.2em;
 }
 
+#sidebarButton::after {
+    content: " ▼";
+    font-size: 85%;
+}
+
 #sidebarButton:hover {
     background-color: rgb(39, 39, 39);
 }
@@ -77,12 +82,12 @@ li {
     margin-right: 3em;
     border-radius: 0.2em;
     padding: 0.5em;
+    text-decoration: underline;
 }
 
 main {
     display: flex;
     margin: 4rem;
-    margin-top: 2em;
     align-items: center;
     flex-direction: column;
 }
@@ -171,14 +176,23 @@ ol li {
     margin: auto;
 }
 
+#footer-small p {
+    text-align: center;
+}
+
+#footer-small {
+    display: none;
+    padding: 0.2em;
+}
+
 @media only screen and (max-width: 60em) {
     body {
-        font-size: 85%;
+        font-size: 110%;
     }
 
     main {
         margin: 0;
-        margin-bottom: 8em;
+        margin-bottom: 3em;
     }
 
     footer {
@@ -200,5 +214,13 @@ ol li {
 
     #article {
         margin: 2.2em;
+    }
+
+    #footer-small {
+        display: block;
+    }
+
+    #footer-big {
+        display: none;
     }
 }
